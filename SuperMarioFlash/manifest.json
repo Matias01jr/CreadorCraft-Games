@@ -1,0 +1,8 @@
+{
+  "name": "Super Mario Flash",
+  "description": "Un juego de Mario de Flash porteado a Creadorcraft",
+  "version": "1.0.0",
+  "mainHtml":"index.html",
+  "mainCSS":"index.css",
+  "mainJS":"main.js"
+}
