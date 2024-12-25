@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "description": "",
+  "name": "Geometry Dash",
+  "description": "Un juego de Geometry Dash porteado a Creadorcraft",
   "version": "1.0.0",
   "mainHtml": "index.html",
   "mainJS": "main.js",
