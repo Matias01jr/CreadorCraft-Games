@@ -1,0 +1,8 @@
+{
+  "name": "Geometry Minecraft",
+  "description": "Una versión especial de Geometry Dash para amantes de Minecraft y Geometry Dash",
+  "version": "1.0.0",
+  "mainHtml": "index.html",
+  "mainJS": "main.js",
+  "mainCSS": "index.css"
+}
