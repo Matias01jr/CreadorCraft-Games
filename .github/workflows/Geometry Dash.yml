@@ -24,4 +24,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Geometry Dash
-          path: gameBuildCCM/Name 1.0.0.creadorcraftgame.zip
+          path: gameBuildCCM/Geometry Dash 1.0.0.creadorcraftgame.zip
