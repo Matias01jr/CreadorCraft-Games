@@ -1,0 +1,8 @@
+{
+  "name": "Mine-Blocks",
+  "description": "Una copia de Minecraft creada en Flash y porteada a CreadorCraft",
+  "version": "1.0.0",
+  "mainHtml":"index.html",
+  "mainCSS":"index.css",
+  "mainJS":"main.js"
+}
