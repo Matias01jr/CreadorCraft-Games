@@ -1,0 +1,25 @@
+name: Mine-Blocks Flash CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: ${{ !contains(github.event.head_commit.message, '[ci skip]') }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: CreadorCraft-Maker-Flash
+        uses: Creadores-Program/CreadorCraft-Maker-Flash@v1.0.0
+        with:
+          path: "./Mine-Blocks" # Dir by game: This does not generate CSS or HTML or the manifest, the manifest in JS must be main.js
+          pathSWF: "Mine-Blocks.swf" #Game Path from Previous Path
+          elementID: 'Game' #Html element ID to put the flash game
+      - name: CreadorCraft-Maker
+        uses: Creadores-Program/CreadorCraft-Maker-GHA@v1.1.0
+        with:
+          path: "./Mine-Blocks"
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mine-Blocks
+          path: gameBuildCCM/Mine-Blocks 1.0.0.creadorcraftgame.zip
