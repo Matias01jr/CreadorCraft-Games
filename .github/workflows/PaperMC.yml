@@ -18,7 +18,7 @@ jobs:
           id: '743012253'
       # Pack..
       - name: CreadorCraft-Maker
-        uses: Creadores-Program/CreadorCraft-Maker-GHA@v1.2.0
+        uses: Creadores-Program/CreadorCraft-Maker-GHA@V1.2.0
         with:
           path: "./PaperMinecraft/src"
       - name: Upload Artifact
