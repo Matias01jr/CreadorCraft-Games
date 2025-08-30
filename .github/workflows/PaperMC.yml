@@ -14,7 +14,8 @@ jobs:
           path: "./PaperMinecraft/src" # Destinity CreadorCraft Game (this not genere manifest.json)
           # id: "id" Id by game Scratch
           # url: "url" Url by game Scratch
-          pathGame: "./PaperMinecraft/PaperMinecraft.sb3" # Only uses 1 of the above
+          # pathGame: "./PaperMinecraft/PaperMinecraft.sb3" # Only uses 1 of the above
+          id: '743012253'
       # Pack..
       - name: CreadorCraft-Maker
         uses: Creadores-Program/CreadorCraft-Maker-GHA@v1.1.0
